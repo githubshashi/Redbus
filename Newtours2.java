@@ -41,10 +41,10 @@ public class Newtours2 {
 	        //js.executeScript("window.scrollBy(0,2000)"); // This  will scroll down the page by  1000 pixel vertical	
 
 	       // WebElement Element = driver.findElement(By.xpath("//li[@id='10735044']//div[@class='travels lh-24 f-bold d-color'][contains(text(),'Poornima Tours')]"));
-	       // js.executeScript("arguments[0].scrollIntoView();", Element);   //This will scroll the page till the element is found
+	       js.executeScript("arguments[0].scrollIntoView();", Element);   //This will scroll the page till the element is found
 	        
 	      //This will scroll the web page till end.		
-	        js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+	        //js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		
 		System.out.println("Done");
 		
